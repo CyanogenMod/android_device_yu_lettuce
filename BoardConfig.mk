@@ -64,11 +64,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_SEPOLICY_DIRS += \
     device/yu/lettuce/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-    file.te \
-    system_server.te \
-    file_contexts
-
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
