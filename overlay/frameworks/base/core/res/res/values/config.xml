@@ -19,9 +19,6 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Traffic stats -->
-    <string name="config_datause_iface">rmnet0</string>
-
     <!-- Minimum allowable screen brightness to use in a very dark room.
          This value sets the floor for the darkest possible auto-brightness
          adjustment.  It is expected to be somewhat less than the first entry in
@@ -96,42 +93,6 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">64</integer>
-
-    <!-- Control the behavior when the user long presses the home button.
-            0 - Nothing
-            1 - Menu key
-            2 - Recent apps view in SystemUI
-            3 - Launch assist intent
-            4 - Voice Search
-            5 - In-app Search
-         This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_longPressOnHomeBehavior">3</integer>
-
-    <!-- Control the behavior when the user long presses the menu button.
-            0 - Nothing
-            1 - Menu key
-            2 - Recent apps view in SystemUI
-            3 - Launch assist intent
-            4 - Voice Search
-            5 - In-app Search
-         This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_longPressOnMenuBehavior">2</integer>
-
-    <!-- Control the behavior when the user double-taps the home button.
-            0 - Nothing
-            1 - Menu
-            2 - Recent apps view in SystemUI
-            3 - Launch assist intent
-            4 - Voice Search
-            5 - In-app Search
-         This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
                   autodetected from the Configuration. -->
