@@ -10,6 +10,7 @@ av.streaming.offload.enable=true
 audio.offload.gapless.enabled=true
 audio.offload.pcm.16bit.enable=true
 audio.offload.pcm.24bit.enable=true
+audio.offload.disable=0
 
 # set roaming indicator to always show
 ro.config.always_show_roaming=true
