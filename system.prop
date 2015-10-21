@@ -28,3 +28,6 @@ ro.usb.id.ptp_adb=3006
 ro.usb.id.ums=3007
 ro.usb.id.ums_adb=3008
 ro.usb.vid=2a96
+
+# relax sensor fusion mag field filter
+ro.fusion.magfield.max=250
