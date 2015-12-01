@@ -26,6 +26,7 @@
 #
 
 import init.lettuce.diag.rc
+import init.qcom.ssr.rc
 
 on init
     # See storage config details at http://source.android.com/tech/storage/
