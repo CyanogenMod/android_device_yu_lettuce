@@ -4,10 +4,9 @@ persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 
-# set roaming indicator to always show
-ro.config.always_show_roaming=true
-
-# Display
+# Camera
+persist.camera.cpp.duplication=false
+persist.camera.hal.debug.mask=0# Display
 ro.sf.lcd_density=320
 
 # Radio
@@ -18,13 +17,8 @@ ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
 
 ro.com.android.mobiledata=false
+ro.config.always_show_roaming=true
 ro.telephony.default_network=9,9
 
-# relax sensor fusion mag field filter
+# Sensors
 ro.fusion.magfield.max=250
-
-# disable all camera debug
-persist.camera.hal.debug.mask=0
-
-# Disable CPP duplication mode
-persist.camera.cpp.duplication=false
